@@ -1,6 +1,18 @@
 body {
   font-family: sans-serif;
 }
+body {
+    font-family: sans-serif;
+    background-image: url('/assets/img/4282077\ 1.png'); /* Replace 'your-background-image-url.jpg' with the URL of your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
 
 form {
   width: 500px;
