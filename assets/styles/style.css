@@ -1,30 +1,384 @@
-body {
-    font-family: sans-serif;
-    background-color: #f5f5f5;
-  }
+.sign-up-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up-page .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.sign-up-page .div-2 {
+  position: absolute;
+  width: 720px;
+  height: 900px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up-page .overlap {
+  position: relative;
+  height: 900px;
+}
+
+.sign-up-page .rectangle {
+  position: absolute;
+  width: 45px;
+  height: 900px;
+  top: 0;
+  left: 675px;
+  filter: blur(20px);
+  background: linear-gradient(
+    180deg,
+    rgba(44.63, 120.36, 255, 0.8) 0%,
+    rgba(47.41, 170.08, 252.88, 0.8) 20.31%,
+    rgba(24.7, 93.76, 164.69, 0.8) 50.52%,
+    rgba(26.06, 147.23, 231.63, 0.8) 69.27%,
+    rgba(12.94, 77.54, 182.75, 0.8) 100%
+  );
+}
+
+.sign-up-page .frame {
+  position: absolute;
+  width: 720px;
+  height: 900px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/L6TGEzNP/img/4282077-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sign-up-page .social-buttons {
+  position: absolute;
+  width: 384px;
+  height: 172px;
+  top: 364px;
+  left: 159px;
+}
+
+.sign-up-page .button {
+  position: absolute;
+  width: 384px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up-page .overlap-group {
+  position: relative;
+  width: 386px;
+  height: 36px;
+  top: -1px;
+  left: -1px;
+  background-color: #fffcfc;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #cccccc;
+  box-shadow: var(--box-shadow);
+}
+
+.sign-up-page .group {
+  position: absolute;
+  width: 147px;
+  height: 18px;
+  top: 8px;
+  left: 148px;
+}
+
+.sign-up-page .text-wrapper {
+  left: 0;
+  font-family: "Gilroy-Medium-☞", Helvetica;
+  color: #6f6f6f;
+  font-size: 15px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-up-page .linkedin {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 2px;
+  left: 104px;
+}
+
+.sign-up-page .overlap-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 34px;
+  top: 69px;
+  left: 0;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up-page .group-2 {
+  position: relative;
+  width: 178px;
+  height: 24px;
+  top: 5px;
+  left: 107px;
+}
+
+.sign-up-page .text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: 41px;
+  font-family: "Gilroy-Medium-☞", Helvetica;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up-page .twitter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up-page .overlap-group-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 34px;
+  top: 138px;
+  left: 0;
+  border-radius: 15px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up-page .div-wrapper {
+  position: absolute;
+  width: 160px;
+  height: 18px;
+  top: 8px;
+  left: 148px;
+}
+
+.sign-up-page .facebook {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 3px;
+  left: 104px;
+}
+
+.sign-up-page .text-wrapper-3 {
+  position: absolute;
+  width: 123px;
+  top: 22px;
+  left: 45px;
+  font-family: "cassadio-Regular", Helvetica;
+  font-weight: 400;
+  color: #fffcfc;
+  font-size: 41.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page .normal-sign-up {
+  position: absolute;
+  width: 720px;
+  height: 900px;
+  top: 0;
+  left: 720px;
+}
+
+.sign-up-page .button-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 150px;
+  left: 1015px;
+ 
   
-  form {
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-  }
   
-  input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 200px;
-  }
+}
+
+.sign-up-page .group-wrapper {
+  position: relative;
+  width: 386px;
+  height: 36px;
+  top: -1px;
+  left: -1px;
+  background-color: #03a9f4;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #cccccc;
+  box-shadow: var(--box-shadow);
+}
+
+.sign-up-page .group-3 {
+  position: relative;
+  width: 54px;
+  height: 18px;
+  top: 8px;
+  left: 166px;
+}
+
+.sign-up-page .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Gilroy-Medium-☞", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up-page .email {
+  position: absolute;
+  width: 385px;
+  height: 47px;
+  top: 390px;
+  left: 178px;
+}
+
+.sign-up-page .rectangle-2 {
+  position: absolute;
+  width: 387px;
+  height: 32px;
+  top: 16px;
+  left: -1px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #c9c9c9;
+  box-shadow: var(--box-shadow);
+}
+
+.sign-up-page .input {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Gilroy-Regular-☞", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.sign-up-page .password {
+  position: absolute;
+  width: 385px;
+  height: 47px;
+  top: 473px;
+  left: 178px;
+}
+
+.sign-up-page .text-wrapper-5 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Gilroy-Regular-☞", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page .frame-2 {
+  position: absolute;
+  width: 418px;
+  height: 30px;
+  top: 558px;
+  left: 178px;
+}
+
+.sign-up-page .creating-an-account {
+  position: absolute;
+  width: 403px;
+  top: -8px;
+  left: 17px;
+  font-family: "Gilroy-Regular-☞", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up-page .rectangle-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 0;
+  background-color: #fffcfc;
+  border: 1px solid;
+  border-color: #c9c9c9;
+}
+
+.sign-up-page .group-4 {
+  position: absolute;
+  width: 313px;
+  height: 106px;
+  top: 243px;
+  left: 209px;
+}
+
+.sign-up-page .text-wrapper-6 {
+  left: 54px;
+  font-family: "Gilroy-Bold-☞", Helvetica;
+  color: #4f4f4f;
+  font-size: 45px;
+  letter-spacing: 6.75px;
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-up-page .text-wrapper-7 {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  font-family: "Gilroy-Medium-☞", Helvetica;
+  font-weight: 400;
+  color: #4f4f4fcc;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up-page .img {
+  position: absolute;
+  width: 141px;
+  height: 136px;
+  top: 764px;
+  left: 0;
+}
+
+.sign-up-page .group-5 {
+  position: absolute;
+  width: 141px;
+  height: 147px;
+  top: 0;
+  left: 579px;
+}
